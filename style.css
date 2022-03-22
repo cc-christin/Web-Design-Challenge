@@ -1,0 +1,98 @@
+body {
+    background: rgb(216, 224, 227);
+    }
+    
+    .mintgreen {
+        background: rgb(62,180,137)
+    }
+
+    .box {
+        padding: 10px;
+        background: rgb(239, 247, 246);
+        maargin-top: 50px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        align-content: center;
+    }
+
+    .navbar {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 25px;
+        backgorund: rgb(74, 126, 115);
+    }
+
+    .navbar li {
+        display: d-block;
+        padding: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .c-d {color: white;
+        font-size: 28px;
+    }
+
+    .latitude {
+        color: white;
+        font-family: verdana;
+        font-size: 40px;
+        background-color: rgb(22, 148, 125);
+        border: 1px solid rgb(12, 110, 103);
+            padding: 15px;
+    }
+
+    @media (max-width: 500px) {
+        .navbar li {
+            padding: 10px;
+        }
+        .box {
+            margin-right: 22px;
+            margin-left: 22px;
+        }
+        .navbar ul {
+            visibility: hidden;
+        }
+        #nav-select {
+            visibility: visible;
+        }
+    }
+
+    .col-1 {width: 8%;}
+    .col-2 {width: 17%;}
+    .col-3 {width: 24%;}
+    .col-4 {width: 32%;}
+    .col-5 {width: 40%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 60%;}
+    .col-8 {width: 65%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 82%;}
+    .col-11 {width: 92%;}
+    .col-12 {width: 100%;}
+
+    @ media only screen and (max-width: 768px) {
+
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+
+
