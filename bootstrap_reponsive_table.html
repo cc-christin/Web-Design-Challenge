@@ -1,48 +1,8 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-
-    <meta charset="UTF-8">
-    <title>Data Table</title>
-
-    <!--bootstrap content for navbar with dropdown menu-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-</head>
-
-
-<body>
-  <!--bootstrap content for navbar with dropdown menu-->
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="landing.html">Latitude</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="data.html">Data</a></li>
-        <li><a href="comparisons.html">Comparisons</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="visualizations.html">Plots <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="cloudiness.html">Cloudiness</a></li>
-            <li><a href="humidity.html">Humidity</a></li>
-            <li><a href="max_temp.html">Max Temperature</a></li>
-            <li><a href="windspeed.html">Wind Speed</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!--Bootstrap for Responsive Table for Data Generated From Weather.py-->
-  <div class="table-responsive">
+<div class="table-responsive">
     <table class="table">
         <thead>
-            <tr class="table-info"> 
-              <th scope="row">1</th>
+            <tr style="text-align: left;">
+              <th></th>
               <th>City_ID</th>
               <th>City</th>
               <th>Cloudiness</th>
@@ -7170,7 +7130,3 @@
           </tbody>
     </table>
   </div>
-
-
-
-</body>
