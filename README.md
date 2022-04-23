@@ -4,13 +4,13 @@ Used HTML and CSS to create a dashboard showing off the analysis from weather da
 [GitHub Pages Link for Web-Design-Challenge](https://cc-christin.github.io/Web-Design-Challenge/)
 
 Website Pages
-* /landing.html
-* /data.html
-* /comparisons.html
-* /cloudiness.html
-* /humidity.html
-* /max_temp.html
-* /windspeed.html
+* [/landing.html](https://cc-christin.github.io/Web-Design-Challenge/landing.html)
+* [/data.html](https://cc-christin.github.io/Web-Design-Challenge/data.html)
+* [/comparisons.html](https://cc-christin.github.io/Web-Design-Challenge/comparisons.html)
+* [/cloudiness.html](https://cc-christin.github.io/Web-Design-Challenge/cloudiness.html)
+* [/humidity.html](https://cc-christin.github.io/Web-Design-Challenge/humidity.html)
+* [/max_temp.html](https://cc-christin.github.io/Web-Design-Challenge/max_temp.html)
+* [/windspeed.html](https://cc-christin.github.io/Web-Design-Challenge/windspeed.html)
 
 
 # Overview:
