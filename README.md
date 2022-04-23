@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-HTML and CSS to create a dashboard showing off the analysis from weather data 
+Used HTML and CSS to create a dashboard showing off the analysis from weather data. Individual pages were created for each plot and a means by which we can navigate between them was devised. The website consist of 7 pages total and was deployed to github pages. 
 
 [GitHub Pages Link for Web-Design-Challenge](https://cc-christin.github.io/Web-Design-Challenge/)
 
@@ -11,6 +11,7 @@ Website Pages
 * /humidity.html
 * /max_temp.html
 * /windspeed.html
+
 
 # Overview:
 This project analyzes changes in weather in relation to latitide from the euqator. Original data was pulled from the OpenWeatherMap API to generate a dataset of over 500 cities and used to generate the various plots. Matplotlib was used to generate the plots for latitide vs. (cloudiness, humidity, temperature, and windspeed) respectively.
