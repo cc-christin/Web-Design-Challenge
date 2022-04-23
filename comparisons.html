@@ -41,7 +41,11 @@
 
             <div class ="box">
                 <h2> Visualizations</h2>
-                <p>  </p>
+                <p> After gathering and analyzing api data on weather conditions: temperture, humidity, cloud cover, wind speed, and geolocation (latitudinal distance from the equator) for 565 cities in both the northern (384) and southern (181) hemisphere for the month of Febuary 2022, there seems to be a strongly negative correlation between temperature (in degrees Fahrenheit) and geolocation from the equator for cities in the northern hemisphere and a slightly positive correlation for the same metrics for cities located in the southern hemisphere. The farther away a city is located from the equator (0 degrees latitude) the colder the climate, mainly for the ranges beyond the range of -20 to 20 (degrees latitude).
+
+                    There seems to be little to no statistically relevent correlation between humidity, cloudiness, and wind speed with geolocation in respects to the equator as the data points are spreaded throughout and does not form a logical pattern that when not skewed by server outliers. Wind speed between over 30 mph can be found for a specific cities in the northern hemisphere located between 60 and 70 (degrees latitude) such as Sørland (67.6670, 32.26). There are also outliers like Isangel (40.18, -19.5500) and Vao (-22.6667, 30.29) for the southern hemisphere with also with over 30 mph wind speeds.
+                    
+                    There is no observable correlation for cloudiness (cloud cover) and geolocation for all cities (both north and south of the equator). The data points appear to be randomly scattered all through out the linear regression plot with no obvious association that can be analyzed. </p>
                 <div class="col-6">
                     <a href="cloudiness.html">
                         <img class="panel" src="assets/cloudiness.png" width="200px" height="180px" alt="cloudiness plot"> 
